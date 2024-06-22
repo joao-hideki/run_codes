@@ -21,34 +21,3 @@ int main() {
 
     return 0;
 }
-
-// #include <math.h>
-
-// void bascara();
-
-// int main() {
-//     printf("Hello, World!\n");
-//     bascara();
-//     return 0;
-// }
-
-// void bascara() {
-//     float a, b, c;
-//     printf("Digite os valores de a, b e c: ");
-//     scanf("%f %f %f", &a, &b, &c);
-
-//     float d = b * b - 4 * a * c;
-
-//     if (a == 0) {
-//         printf("A variável 'a' não pode ser zero.\n");
-//         return;
-//     }
-
-//     if (d >= 0) {
-//         float r1 = (-b + sqrt(d)) / (2 * a);
-//         float r2 = (-b - sqrt(d)) / (2 * a);
-//         printf("As raízes são: %.2f e %.2f\n", r1, r2);
-//     } else {
-//         printf("As raízes são complexas.\n");
-//     }
-// }
